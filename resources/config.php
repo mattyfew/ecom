@@ -3,6 +3,7 @@
 ob_start(); // output buffering, needed for doing redirects
 
 session_start();
+// session_destroy();
 
 defined("DS") ? null : define("DS", DIRECTORY_SEPARATOR);
 
